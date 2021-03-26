@@ -23,11 +23,11 @@ Une fois la VM démarrée, ouvrez un navigateur web et connectez-vous à cette U
 
 Pour aller plus vite, visualisez cette [Vidéo](https://efrei365net-my.sharepoint.com/:v:/g/personal/boussad_aitsalem_efrei_net/EZFIeZV2hSJPh5I7sAG4PBsBZGYqoZZQdda4-CC1Uweh6A?e=jUjKVk).
 
+#### Remarques
+
 <img src="images/vwifi1.png" alt="50%" style="zoom:50%;" />
 
 ```markdown
-
-#### Remarques
 
 - En cas de problèmes, vérifiez que l’adresse IP NAT sur l’interface de bienvenue de la VM correspond à celle spécifiée dans les paramètres de VirtualBox de la VM.
 
