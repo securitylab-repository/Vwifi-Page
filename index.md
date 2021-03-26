@@ -27,11 +27,9 @@ Pour aller plus vite, visualisez cette [Vidéo](https://efrei365net-my.sharepoin
 
 <img src="images/vwifi1.png" alt="50%" style="zoom:50%;" />
 
-```markdown
+> En cas de problèmes, vérifiez que l’adresse IP NAT sur l’interface de bienvenue de la VM correspond à celle spécifiée dans les paramètres de VirtualBox de la VM.
 
-- En cas de problèmes, vérifiez que l’adresse IP NAT sur l’interface de bienvenue de la VM correspond à celle spécifiée dans les paramètres de VirtualBox de la VM.
+> Pour partager des fichiers avec la VM, créez un dossier partagé sur votre machine physique et nommer-le `sharedvm`. Procédez par la suite à la configuration de ce dossier sur VirtualBox.
 
-- Pour partager des fichiers avec la VM, créez un dossier partagé sur votre machine physique et nommer-le `sharedvm`. Procédez par la suite à la configuration de ce dossier sur VirtualBox.
+> Vérifiez également que l'imbrication imbriquée est activée sur Virtualbox.
 
-- Vérifiez également que l'imbrication imbriquée est activée sur Virtualbox.
-```
