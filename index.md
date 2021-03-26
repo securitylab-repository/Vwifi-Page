@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+#**Cybesecurity E-learning Laboratory**
 
-You can use the [editor on GitHub](https://github.com/securitylab-repository/Vwifi-Page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Efrei Paris propose aux étudiants de la majeure cyber-sécurité un environnement de simulation réseau filaire et sans fil basé sur GNS3 et [VWIFI](https://github.com/Raizo62/vwifi). Ce dernier, développé au sein de l’équipe R&D du laboratoire [Alianstic](https://www.efrei.fr/innovation-recherche/le-laboratoire-de-recherche-allianstic/) rattaché à l’école, offre aux élèves une plateforme complète d’entrainement sur différents Labs dédiés au système, au réseau et à la sécurité.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Architecture de VWIFI
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+VWIFI est un simulateur  Wi-Fi (802.11) permettant la mise en place de réseaux WI-FI entre machines virtuelles. Il peut être utilisé sous plusieurs Hyperviseurs  (GNS3, QEmu, Virtualbox, VMware, Hyper-V, ...). L'émulation WIFI au niveau de chaque VM s'appuie sur le pilote  `mac80211_hwsim`. 
 
-```markdown
-Syntax highlighted code block
+Le schéma suivant présente l'architecture globale de VWIFI.
 
-# Header 1
-## Header 2
-### Header 3
+<img src="images/vwifiarchitecture.png" alt="50%" style="zoom:70%;" />
 
-- Bulleted
-- List
+## Installation
 
-1. Numbered
-2. List
+Il existe plusieurs façons de récupérer et d’utiliser notre plateforme. 
 
-**Bold** and _Italic_ and `Code` text
+### VM VirtualBox
 
-[Link](url) and ![Image](src)
-```
+Avec cette solution, vous n’avez besoin que d’installer VirtualBox sur votre machine. Récupérez ce fichier [OVA](https://efrei365net-my.sharepoint.com/:u:/g/personal/boussad_aitsalem_efrei_net/EQhWl8fPisZHuKiw_rf5bOgBWBdkAWtwzrMutZJKq2rB8A?e=oeAQPi) et importez-le avec un simple clic dans VirtualBox.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Une fois la VM démarrée, ouvrez un navigateur web et connectez-vous à cette URL : [http://localhost](http://localhost).
 
-### Jekyll Themes
+Pour aller plus vite, visualisez cette [Vidéo](https://efrei365net-my.sharepoint.com/:v:/g/personal/boussad_aitsalem_efrei_net/EZFIeZV2hSJPh5I7sAG4PBsBZGYqoZZQdda4-CC1Uweh6A?e=jUjKVk).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/securitylab-repository/Vwifi-Page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Remarques
 
-### Support or Contact
+> En cas de problèmes, vérifiez que l’adresse IP NAT sur l’interface de bienvenue de la VM correspond à celle spécifiée dans les paramètres de VirtualBox de la VM.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<img src="images/vwifi1.png" alt="50%" style="zoom:50%;" />
+
+> Pour partager des fichiers avec la VM, créez un dossier partagé sur votre machine physique et nommer-le `sharedvm`. Procédez par la suite à la configuration de ce dossier sur VirtualBox.
+
+> Vérifiez également que l'imbrication imbriquée est activée sur Virtualbox.
+
+### VM VMware
+
+### Clé USB Bootable 
+
+
+### Sur Notre serveur interne
+
+## Labs
