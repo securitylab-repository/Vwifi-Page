@@ -1,4 +1,4 @@
-#**Cybesecurity E-learning Laboratory**
+# Cybesecurity E-learning Laboratory
 
 Efrei Paris propose aux étudiants de la majeure cyber-sécurité un environnement de simulation réseau filaire et sans fil basé sur GNS3 et [VWIFI](https://github.com/Raizo62/vwifi). Ce dernier, développé au sein de l’équipe R&D du laboratoire [Alianstic](https://www.efrei.fr/innovation-recherche/le-laboratoire-de-recherche-allianstic/) rattaché à l’école, offre aux élèves une plateforme complète d’entrainement sur différents Labs dédiés au système, au réseau et à la sécurité.
 
@@ -32,12 +32,3 @@ Pour aller plus vite, visualisez cette [Vidéo](https://efrei365net-my.sharepoin
 > Pour partager des fichiers avec la VM, créez un dossier partagé sur votre machine physique et nommer-le `sharedvm`. Procédez par la suite à la configuration de ce dossier sur VirtualBox.
 
 > Vérifiez également que l'imbrication imbriquée est activée sur Virtualbox.
-
-### VM VMware
-
-### Clé USB Bootable 
-
-
-### Sur Notre serveur interne
-
-## Labs
